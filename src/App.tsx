@@ -1,15 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './screen/Home';
-import Contact from './screen/Contact';
+import Home from './components/screen/Home';
+import Contact from './components/screen/Contact';
 import './App.css';
-import Catalogos from './screen/Catalogos';
-import Ofertas from './screen/Ofertas';
-import Nuevos from './screen/Nuevos';
-import Categorias from './screen/Categorias';
-import Marcas from './screen/Marcas';
-import Carrito from './screen/Carrito';
-import Login from './screen/Login';
+import Catalogos from './components/screen/Catalogos';
+import Ofertas from './components/screen/Ofertas';
+import Nuevos from './components/screen/Nuevos';
+import Categorias from './components/screen/Categorias';
+import Marcas from './components/screen/Marcas';
+import Carrito from './components/screen/Carrito';
+import Login from './components/screen/Login';
 
 function Navbar() {
   return (
