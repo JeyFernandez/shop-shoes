@@ -32,7 +32,9 @@ function App() {
     <Router>
       <div>
         <header className='container-nav'>
-          <h1 className='title'>Shoes Shop</h1>
+          <section className='logo-name'>
+            <h1 className='title'>Shoes Shop</h1>
+          </section>
           <Navbar />
         </header>
         <Routes>
